@@ -1,0 +1,64 @@
+/* Q#: All the elements have margin of 0 from the top, bottom, left, and right */ 
+* { 
+    margin: 0; 
+} 
+/*
+1. All the HTML5 new elements (The new semantic elements) that you have used in your code should be 
+displayed as block-level elements (for old browsers that don’t support them), so make sure to 
+follow/add the rule for that. (Please check my in-class notes/code) 
+*/
+
+header, footer, nav, main, video{
+    display: block;
+}
+
+/*
+2. The <body> element has to be styled with: 
+a. Any colour you prefer for the text 
+b. A background image, you can use any one from the 7 samples of dark-woodx.jpg. So, pick the 
+one that reflects the colour of your website. 
+▪ If no one matches your website colour, you can use Photoshop to change its colours 
+▪ If you haven’t finished the Photoshop module, you will have no other choice just to pick one 
+of the provided samples 
+▪ Make sure to have only one background image which is the one that is used in your css code  
+c. The font family (face) is at least 3 options of any sans-serif fonts 
+d. Margin 0 for all the four sides (top, bottom, left, right) 
+*/
+
+body{
+    /*any color you prefere fot the text*/
+    color: #ab9b9b;
+
+    /* background image*/
+    background-image: url("../assets/dark-wood2.jpg");
+
+    font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS', sans-serif;
+
+    margin: 0; 
+}
+
+div.container{
+    background-color: rgb(56, 35, 35);
+    width: 950px;
+    margin: 10px 20px 35px 50px;
+}
+
+.container{
+    background-color: beige;
+}
+
+content{
+    line-height: 1.4em;
+    padding: 10px;;
+}
+
+header, footer {
+    background-color: rgb(82, 145, 166);
+    color: bisque;
+}
+
+nav#main-nav li {
+    display: inline;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
